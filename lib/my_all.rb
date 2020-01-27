@@ -8,5 +8,4 @@ def my_all?(collection)
     i += 1
   end
   return valArr.include?(false)
-  end
 end
