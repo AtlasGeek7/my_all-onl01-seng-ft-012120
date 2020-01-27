@@ -7,5 +7,5 @@ def my_all?(collection)
     valArr.push(yield(collection[i]))
     i += 1
   end
-  return valArr.include?(false)
+  return !(valArr.include?(false))
 end
